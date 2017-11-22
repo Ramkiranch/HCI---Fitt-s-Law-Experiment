@@ -20,6 +20,8 @@ ncircles = int(sys.argv[1])
 bradius = [223,216,170]
 tradius = [20,27]
 '''
+bradius = []
+tradius = []
 for i in range(0,3):
     a = random.randint(150, 230)
     if a not in bradius:
